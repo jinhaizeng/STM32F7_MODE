@@ -123,7 +123,7 @@ void Func_LED(void const * argument)
     osDelay(500);
     HAL_GPIO_TogglePin(LED0_GPIO_Port,LED0_Pin);
     osDelay(500);
-    printf("I am Usart1!");
+    //printf("I am Usart1!");
     
     osDelay(1);
   }
